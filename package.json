@@ -1,5 +1,5 @@
 {
-  "name": "react-nlform",
+  "name": "@colafly/react-nlform",
   "version": "1.0.0",
   "description": "A React component library for creating natural language forms with interactive dropdowns and inputs",
   "main": "dist/index.js",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-nlform.git"
+    "url": "https://github.com/colafly/react-nlform.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/react-nlform/issues"
+    "url": "https://github.com/colafly/react-nlform/issues"
   },
-  "homepage": "https://github.com/yourusername/react-nlform#readme",
+  "homepage": "https://github.com/colafly/react-nlform#readme",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
