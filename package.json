@@ -1,0 +1,79 @@
+{
+  "name": "react-nlform",
+  "version": "1.0.0",
+  "description": "A React component library for creating natural language forms with interactive dropdowns and inputs",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react",
+    "form",
+    "natural-language",
+    "ui",
+    "components",
+    "dropdown",
+    "input",
+    "interactive"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-nlform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-nlform/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-nlform#readme",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "@babel/preset-typescript": "^7.22.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@storybook/addon-essentials": "^6.5.0",
+    "@storybook/react": "^6.5.0",
+    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.0",
+    "@types/jest": "^29.5.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.40.0",
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.21.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.0.0"
+  }
+}

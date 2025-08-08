@@ -1,0 +1,24 @@
+# Source files
+src/
+tsconfig.json
+rollup.config.js
+
+# Test directories
+test-app/
+*.tgz
+
+# Development files
+node_modules/
+.git/
+.DS_Store
+
+# Examples
+ExampleUsage.jsx
+NLForm.jsx
+
+# Original files
+bower.json
+css/
+fonts/
+index.html
+js/
