@@ -388,7 +388,7 @@ import { NLTheme, NLFormProps, NLSelectProps, NLInputProps, Option } from 'react
 
 ## License
 
-MIT © [Your Name]
+MIT © Hypercard Limited Liability Co.
 
 ## Credits
 
